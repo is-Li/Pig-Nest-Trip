@@ -1,0 +1,23 @@
+/* 公共的东西，比如所有字体都设置为14px */
+:root{
+    --primary-color:#ff9854;
+
+    --theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+
+    /* 全局修改: 修改search样式 */
+    --van-primary-color: var(--primary-color);
+    --van-search-left-icon-color: var(--primary-color) !important;
+}
+
+body{
+    font-size: 14px;
+}
+
+.top-page {
+    position: relative;
+    z-index: 9;
+    height: 100vh;
+    background-color: #fff;
+
+    overflow-y: auto;
+}
